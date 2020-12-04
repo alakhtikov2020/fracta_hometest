@@ -1,0 +1,12 @@
+2020-12-04 04:28:57,604 messagebus.views ERROR    current_user=1 is not allowed to view user_id=2 info
+2020-12-04 04:28:57,605 django.request WARNING  Forbidden: /api/user/
+2020-12-04 04:28:58,206 django.request WARNING  Unauthorized: /api/user/
+2020-12-04 04:28:58,513 messagebus.views ERROR    "id" parameter is mandatory and must be an integer: id=None
+2020-12-04 04:28:58,513 django.security.SuspiciousOperation ERROR    
+2020-12-04 04:28:58,523 django.request WARNING  Bad Request: /api/user/
+2020-12-04 04:28:58,524 messagebus.views ERROR    "id" parameter is mandatory and must be an integer: id='abc'
+2020-12-04 04:28:58,525 django.security.SuspiciousOperation ERROR    
+2020-12-04 04:28:58,531 django.request WARNING  Bad Request: /api/user/
+2020-12-04 04:28:58,532 messagebus.views ERROR    "id" parameter is mandatory and must be an integer: id='3.14'
+2020-12-04 04:28:58,532 django.security.SuspiciousOperation ERROR    
+2020-12-04 04:28:58,538 django.request WARNING  Bad Request: /api/user/
